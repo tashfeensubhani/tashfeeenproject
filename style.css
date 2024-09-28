@@ -1,6 +1,6 @@
 /* Basic styling for the header */
 header {
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
@@ -9,6 +9,18 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     color: white;
 }
+
+/* Basic styling for the header */
+/* footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #333;
+    /* Add shadow effect */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    color: white; */
+
 
 /* Styling the logo image */
 .logo img {
@@ -20,9 +32,10 @@ header {
 .sub h1 {
     font-size: 32px;
     color: #e7e7e7;
-    text-align: center;
+    
     /* Center-aligns the text within the container */
-    margin: 0 auto;
+    margin: 20px;
+    margin-right: 40cqmin;
     /* This will horizontally center the h1 if it's treated like a block element */
 }
 
@@ -106,5 +119,86 @@ h2 {
     color: #333;
     font-size: 24px;
     padding-bottom: 20px;
-    top
 }
+
+
+    /* Global styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  
+      /* Footer Styles */
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 40px 0;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+  
+      .footer-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+  
+      .footer-section {
+        margin: 20px;
+      }
+  
+      .footer-section h3 {
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+  
+      .footer-section p, .footer-section a {
+        color: #ccc;
+        font-size: 14px;
+        text-decoration: none;
+        margin-bottom: 10px;
+        display: block;
+        transition: color 0.3s;
+      }
+  
+      .footer-section a:hover {
+        color: #f0a500;
+      }
+  
+      /* Social media icons */
+      .social-media a {
+        margin: 0 10px;
+        display: inline-block;
+        font-size: 18px;
+        color: white;
+        transition: color 0.3s;
+      }
+  
+      .social-media a:hover {
+        color: #f0a500;
+      }
+  
+      /* Footer bottom */
+      .footer-bottom {
+        margin-top: 40px;
+        font-size: 12px;
+        color: #777;
+      }
+  
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .footer-container {
+          flex-direction: column;
+          align-items: center;
+        }
+  
+        .footer-section {
+          margin-bottom: 30px;
+        }
+      }
