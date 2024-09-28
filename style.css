@@ -1,0 +1,110 @@
+/* Basic styling for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #333;
+    /* Add shadow effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+/* Styling the logo image */
+.logo img {
+    height: 60px;
+    width: auto;
+    align-items: center;
+}
+
+.sub h1 {
+    font-size: 32px;
+    color: #e7e7e7;
+    text-align: center;
+    /* Center-aligns the text within the container */
+    margin: 0 auto;
+    /* This will horizontally center the h1 if it's treated like a block element */
+}
+
+/* Styling the navigation links
+nav ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+margin-left: 20px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: white;
+font-size: 18px;
+transition: color 0.3s;
+}
+
+nav ul li a:hover {
+color: #f0a500;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #9cc9d1;
+}
+
+@media (max-width: 600px) {
+
+    th,
+    td {
+        font-size: 14px;
+        /* Smaller font size */
+    }
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    /* margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px; */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    padding-bottom: 20px;
+    top
+}
